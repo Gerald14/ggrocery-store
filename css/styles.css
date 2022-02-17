@@ -1061,6 +1061,7 @@ h2{
 
 .carousel-item img{
     height: inherit;
+    object-fit: cover!important;
 }
 
 /*--- ANIMACIONES ---*/
