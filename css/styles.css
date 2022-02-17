@@ -25,6 +25,7 @@ body{
 .navbar__main nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar__main ul{
@@ -1048,6 +1049,19 @@ h2{
     color: #151515;
     font-weight: 600;
 }
+/* BOOTSTRAP MOD */
+
+.carousel-inner {
+    height: inherit;
+}
+
+.carousel-item {
+    height: inherit;
+}
+
+.carousel-item img{
+    height: inherit;
+}
 
 /*--- ANIMACIONES ---*/
 .fade--rigth{
@@ -1182,10 +1196,6 @@ h2{
         font-size: 26px;
     }
 
-    .about__details p{
-        font-size: 13px;
-    }
-
     .categories__box, .products__box{
         flex: 0 100%;
         min-width: 240px;
@@ -1197,6 +1207,13 @@ h2{
         min-width: 240px;
         text-align: center;
     }
+    .footer__logo {
+        justify-content: center;
+      }
+
+    .unit {
+        justify-content: center;
+      }
     .sus__box{
         flex: 0 100%;
         min-width: 240px;
