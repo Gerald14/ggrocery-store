@@ -1064,6 +1064,10 @@ h2{
     object-fit: cover!important;
 }
 
+.slider__wrapper .carousel {
+    height: inherit;
+  }
+
 /*--- ANIMACIONES ---*/
 .fade--rigth{
     visibility: visible;
