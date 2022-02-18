@@ -112,43 +112,37 @@
                 <div class="row_">
                     <div class="sus__box">
                         <h3>Suscripcion a aprobacion</h3>
-                        <form action="" class="row">
+                        <form action="" class="row needs-validation" novalidate>
                             <div class="col-xs-12 col-md-6">
-                                <div class="form__group">
-                                    <label for="name">Nombre</label>
-                                    <input type="text" name="name" id="name" autocomplete="given-name" required>
-                                </div>
+                                <label for="name" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" name="name" id="name" autocomplete="given-name" required>
+                                
                             </div>
-                            <div class="col-6 col-xs-12">
-                                <div class="form__group">
-                                    <label for="lastname">Apellidos</label>
-                                    <input type="text" name="lastname" id="lastname" autocomplete="family-name" required>
-                                </div>
+                            <div class="col-md-6 col-xs-12">
+                                <label for="lastname" class="form-label">Apellidos</label>
+                                <input type="text" class="form-control" name="lastname" id="lastname" autocomplete="family-name" required>
+                                
                             </div>
                             
                             <div class="col-6">
-                                <div class="form__group">
-                                    <label for="dni">DNI</label>
-                                    <input type="number" name="dni" id="dni" required>
-                                </div>
+                                <label for="dni" class="form-label">DNI</label>
+                                <input type="number" class="form-control" name="dni" id="dni" required>
+                                
                             </div>
                             <div class="col-6">
-                                <div class="form__group">
-                                    <label for="phone">Celular</label>
-                                    <input type="tel" name="phone" id="phone" autocomplete="tel">
-                                </div>
+                                <label for="phone" class="form-label">Celular</label>
+                                <input type="tel" class="form-control" name="phone" id="phone" autocomplete="tel" required>
+                                
                             </div>
                             <div class="col-12">
                                 <div class="form__group">
-                                    <label for="email">Correo electronico</label>
-                                    <input type="email" name="email" id="email" autocomplete="email">
+                                    <label for="email" class="form-label">Correo electronico</label>
+                                    <input type="email" class="form-control" name="email" id="email" autocomplete="email" required>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <div class="form__group">
-                                    <label for="message">Mensaje</label>
-                                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                                </div>
+                                <label for="message" class="form-label">Mensaje</label>
+                                <textarea name="message" class="form-control" id="message" cols="30" rows="10" required></textarea>
                             </div>
                             <div class="col-12">
                                 <div class="form__button">
