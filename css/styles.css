@@ -658,8 +658,8 @@ object-fit: cover;
     justify-content: center;
 }
 
-.team__header h4{
-  margin-top: 2rem;
+.team h4{
+  margin-top: 2rem!important;
 }
 
 .team__figure{
