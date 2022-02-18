@@ -452,7 +452,7 @@ body{
 .filter__search input{
     background-color: #f2f3f2;
     border: none;
-    padding: 1rem;
+    padding: .8rem;
     letter-spacing: .05em;
     color: #777777;
     outline: none;
@@ -513,6 +513,10 @@ body{
     background-color: white;
     margin-right: 1rem;
 }
+#sort__list:focus{
+    outline: none;
+    box-shadow: none;
+} 
 
 .list-rigth{
     display: flex;
