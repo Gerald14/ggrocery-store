@@ -646,6 +646,7 @@ object-fit: cover;
     height: 100%;
     flex-wrap: wrap;
 }
+
 .content__team h2 {
     text-align: center;
     padding-top: 2rem;
@@ -704,6 +705,7 @@ justify-content: center;
     display: block;
     width: 100%;
     height: 75%;
+    padding-bottom: 1rem;
 }
 
 .carousel__parent ul{
@@ -1031,12 +1033,12 @@ justify-content: center;
     padding-left: 1rem;
 }
 
-.row{
+.row_{
     display: flex;
     flex-wrap: wrap;
     margin-right: -1rem;
     margin-left: -1rem;
-}
+} 
 
 footer{
     border-top: 1px solid #e1e1e1;
@@ -1051,6 +1053,42 @@ h2{
 }
 /* BOOTSTRAP MOD */
 
+.navbar__menu {
+    margin-top: 1rem!important;
+}
+.carousel-caption.d-md-block {
+    top:20%;
+    left: 7%;
+    z-index: 5;
+    text-align: left;
+  }
+.carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+.carousel-caption h1{
+    color: #fff;
+    text-shadow: 3px 9px 16px rgb(0 0 0 / 18%);
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: .025em;
+    font-family: "Poppins";
+}
+
+.carousel-caption h4{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: .05em;
+    font-family: "Kalam",cursive;
+    margin: 0;
+}
 .carousel-inner {
     height: inherit;
 }
@@ -1063,6 +1101,24 @@ h2{
     height: inherit;
     object-fit: cover!important;
 }
+.carousel__button{
+    background-color: #76aa6f;
+    color: white;
+    padding: 1rem 2rem;
+    width: auto;
+    border-radius: 6px;
+    border:none;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    text-shadow: 5px 9px 16px rgba(0, 0, 0, 0.075);
+}
+.carousel__button:hover {
+    background-color: #64925e;
+  }
 
 .slider__wrapper .carousel {
     height: inherit;
@@ -1157,6 +1213,7 @@ h2{
         transform: translateX(-112%);
         transition: all 1s;
         height: 15rem;
+        margin-top: 0!important;
     }
     .navbar__submenu{
         transform: translate(70.3%, -20%);
@@ -1250,6 +1307,9 @@ h2{
 @media screen and (max-width: 665px){
     
   
+    .content__about {
+        margin: 1rem;
+      }
 
     .slider__wrapper{
         height: 30rem;
@@ -1363,6 +1423,19 @@ h2{
         justify-content: center;
       }
 
+    .carousel__parent{
+        height: 70%;
+    }
+    .content__def{
+        margin:1rem;
+    }
+    .def__text{
+        padding: 2rem;
+    }
+    
+    .content__benefits{
+        margin:1rem 3rem;
+    }
 
     /* --FOOTER-- */
     .footer__body {
