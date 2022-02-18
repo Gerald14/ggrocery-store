@@ -88,20 +88,20 @@
                             <h3>Quienes somos?</h3>
                             <div class="tabs-info">
                                 <div class="tabs-info__nav">
-                                    <ul class="nav__tabs">
-                                        <li class="nav__item" role="presentation"><a class="nav-link" href="#tabs-1-1" data-toggle="tab">About</a></li>
-                                        <li class="nav__item" role="presentation"><a class="nav-link" href="#tabs-1-2" data-toggle="tab">Our mission</a></li>
-                                        <li class="nav__item" role="presentation"><a class="nav-link active" href="#tabs-1-3" data-toggle="tab">Our vision</a></li>
+                                    <ul class="nav nav__tabs">
+                                        <li class="nav-item" role="presentation"><a class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#tab-1" type="button" role="tab" aria-controls="tab-1" aria-selected="true">About</a></li>
+                                        <li class="nav-item" role="presentation"><a class="nav-link" id="2-tab" data-bs-toggle="tab" data-bs-target="#tab-2" type="button" role="tab" aria-controls="tab-2" aria-selected="false">Our mission</a></li>
+                                        <li class="nav-item" role="presentation"><a class="nav-link" id="3-tab" data-bs-toggle="tab" data-bs-target="#tab-3" type="button" role="tab" aria-controls="tab-3" aria-selected="false">Our vision</a></li>
                                       </ul>
                                 </div>
-                                <div class="tabs">
-                                    <div class="tab fade--rigth" id="tabs-1-1">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="tab-1" role="tabpanel" aria-labelledby="1-tab">
                                         <p>Chicken Good is a 100% American, family-owned and operated company, providing fresh shell eggs and egg products to supermarkets, restaurants and food manufacturers.</p>
                                     </div>
-                                    <div class="tab fade--rigth" id="tabs-1-2">
-                                        <p>Chicken Good is a 100% American, family-owned and operated company, providing fresh shell eggs and egg products to supermarkets, restaurants and food manufacturers.</p>
+                                    <div class="tab-pane" id="tab-2" role="tabpanel" aria-labelledby="2-tab">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolor magni accusantium cupiditate autem eos reprehenderit.</p>
                                     </div>
-                                    <div class="tab fade--rigth" id="tabs-1-3">
+                                    <div class="tab-pane" id="tab-3" role="tabpanel" aria-labelledby="3-tab">
                                         <p>Chicken Good is a 100% American, family-owned and operated company, providing fresh shell eggs and egg products to supermarkets, restaurants and food manufacturers.</p>
                                     </div>
                                 </div>
@@ -267,6 +267,7 @@
 	  </div>
     </footer>
     <script src="../js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
