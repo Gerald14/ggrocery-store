@@ -288,14 +288,16 @@ body{
     padding: 5px;
 }
 .offer__title + .offer__price{
-    padding-top: .7rem;
+    padding-top: .4rem;
 }
 .offer__price{
     font-size: 15px;
     color: #7fd02c;
+    font-weight: 600;
+
 }
 .details{
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* ---TABS--- */
@@ -1383,6 +1385,8 @@ h2{
     .carousel-control-next {
         display: none!important;
       }
+
+    
     /* --FOOTER-- */
     .footer__body {
         padding: 2.7rem 0;
@@ -1470,6 +1474,20 @@ h2{
     
     .content__benefits{
         margin:1rem 3rem;
+    }
+
+    .show-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .show-list span {
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        font-size: 13px;
+        letter-spacing: .05em;
+        font-family: "Lato";
     }
 
     /* --FOOTER-- */
