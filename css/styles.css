@@ -883,7 +883,7 @@ object-fit: cover;
 
 .banner h2{
     position: absolute;
-    top:20%;
+    top: 35%;
     color: white;
     font-size: 55px;
     z-index: 17;
@@ -1258,7 +1258,7 @@ h2{
         font-size: 26px;
     }
     .def__inf p {
-        font-size: 13px;
+        padding-top: 1rem;
     }
     .about__details h3{
         font-size: 26px;
