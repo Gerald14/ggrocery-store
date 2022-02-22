@@ -28,7 +28,7 @@ body{
     align-items: center;
 }
 
-.navbar__main ul{
+.navbar__main ul {
     list-style: none;
 }
 
@@ -87,7 +87,7 @@ body{
 } 
 
 .navbar__main--rigth ul li img{
-    width: 1rem;
+    width: 1.5rem;
 }
 
 
@@ -110,6 +110,9 @@ body{
 }
 .navbar__menu--icon{
     display: none;
+}
+.navbar__secondary{
+    padding-top: 1rem;
 }
 /* ---TITLE-GRANDE--- */
 .title-big{
@@ -907,6 +910,19 @@ object-fit: cover;
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 16;
 }
+
+/*---SHOPPING CART--- */
+.shop__item{
+    display: flex;
+}
+
+.product-img{
+    width: 10rem;
+}
+.product-img img{
+    width: inherit;
+}
+
 /* ---FOOTER--- */
 .footer__body{
     padding: 4rem 0;
