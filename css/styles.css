@@ -287,7 +287,7 @@ body{
     height: 2.3rem;
 }
 .offer__details button img{
-    width: -moz-available;
+    width: 100%;
     padding: 5px;
 }
 .offer__title + .offer__price{
