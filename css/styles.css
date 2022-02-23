@@ -930,6 +930,11 @@ object-fit: cover;
     text-shadow: 5px 9px 16px rgba(0, 0, 0, 0.075);
 }
 
+.product-name>a{
+    color: #151515;
+    text-decoration: none;
+}
+
 .top-subtotal{
     display: flex;
     flex-flow: row wrap;
