@@ -912,16 +912,29 @@ object-fit: cover;
 }
 
 /*---SHOPPING CART--- */
+
 .shop__item{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .product-img{
     width: 10rem;
 }
-.product-img img{
+.product-img a, .product-img img{
     width: inherit;
 }
+
+.product-access {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem;
+    height: 100%;
+    gap: .5rem;
+  }
 
 /* ---FOOTER--- */
 .footer__body{
