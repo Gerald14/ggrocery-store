@@ -1,0 +1,363 @@
+/*--- MEDIA QUERYS ---*/
+
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 1200px;
+    }
+
+    .benefits__item{
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+
+}
+
+@media screen and (max-width: 780px){
+    .container{
+        max-width: 1200px;
+    }
+
+    /* --HEADER-- */
+    .navbar__main{
+        padding:0 1.2rem;
+    }
+
+    .navbar__menu{
+        margin:0;
+        padding: 0;
+        position: absolute;
+        background-color: white;
+        display: flex;
+        flex-flow:column wrap;
+        justify-content: space-evenly;
+        align-content: space-between;
+        z-index:20;
+        transform: translateX(-112%);
+        transition: all 1s;
+        height: 15rem;
+        margin-top: 0!important;
+    }
+    .navbar__submenu{
+        transform: translate(70.3%, -20%);
+    }
+    .navbar__menu li{
+        display: block;
+        padding: 0 2rem;
+    }
+    .navbar__menu--icon{
+        display: block;
+        padding:1rem 0 ;
+        cursor: pointer;
+    }
+    .navbar__menu--toggle{ 
+        transform: translateX(-12%);
+    }
+
+    .contact__wrapp{
+        padding: 2rem;
+    }
+    
+    .offer__wrapp{
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        grid-gap: 1rem;
+    }
+
+    .banner{
+        height: 10rem;
+
+        h2{
+            font-size: 26px;
+        }
+    }
+    
+    .content__contact h3{
+        font-size: 26px;
+    }
+
+    .def__inf{
+        font-size: 26px;
+
+        h3{
+            font-size: 26px;
+        }
+
+        p {
+            padding-top: 1rem;
+        }
+    }
+    
+    .about__details h3{
+        font-size: 26px;
+    }
+
+    .carousel-caption h1{
+        font-size: 80px;
+        font-family: "Poppins";
+    }
+    
+    .carousel-caption h4{
+        font-size: 25px;
+    }
+
+    .categories__box, .products__box{
+        flex: 0 100%;
+        min-width: 240px;
+        text-align: center;
+    }
+    
+    .carousel__box,.about__def{
+        flex: 0 100%;
+        min-width: 240px;
+        text-align: center;
+    }
+
+    .footer__logo {
+        justify-content: center;
+    }
+
+    .unit {
+        justify-content: center;
+    }
+
+    .sus__box{
+        flex: 0 100%;
+        min-width: 240px;
+
+        h3 {
+            font-size: 24px;
+        }
+    }
+
+    .slider__wrapper{
+        height: 40rem;
+    }
+
+    .footer__box{
+        padding: .5rem;
+        margin: 0 1rem;
+        text-align: center;
+    }
+
+    .footer__box:last-child{
+        align-self: stretch;
+    }
+
+    .footer__box p, .footer__box li{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 665px){
+    
+    .content__about {
+        margin: 1rem;
+      }
+
+    .slider__wrapper{
+        height: 30rem;
+    }
+
+    .offer{
+        margin: 1rem auto;
+
+        &__wrapp{
+            grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+            grid-gap: 1rem;
+        }
+
+    }
+    
+    .content__about{
+        padding: 0 auto;
+    }
+
+    .def__box,.def__text{
+        flex: 0 100%;
+        min-width: 240px;
+        text-align: center;
+    }
+    .def__box + .def__text{
+        padding-top: 2rem;
+    }
+
+    .about--izq,.about{
+        flex: 0 100%;
+        min-width: 240px;
+        text-align: center;
+    }
+
+    .about--izq + .about{
+        padding-top: 2rem;
+    }
+
+    .benefits__item{
+        text-align: center;
+    }
+
+    .carousel-caption h1{
+        font-size: 55px;
+        font-family: "Poppins";
+    }
+    
+    .carousel-caption h4{
+        font-size: 20px;
+    }
+    .carousel-control-prev{
+        display: none!important;
+    }
+    .carousel-control-next {
+        display: none!important;
+      }
+
+    
+    /* --FOOTER-- */
+    .footer__body {
+        padding: 2.7rem 0;
+      }
+    .footer__logo {
+        justify-content: center;
+        align-items: center;
+      }
+
+   
+    .footer__box{
+        padding: .5rem;
+        margin: 0 1rem;
+        text-align: center;
+    }
+    .footer__box h3{
+        text-align: center;
+     }
+
+     .footer__list {
+        justify-content: center;
+        gap: .6rem;
+      }
+      .unit {
+        flex-flow: column wrap;
+        gap: .6rem;
+      }
+}
+
+@media screen and (max-width: 575px){
+    
+    /* --HEADER-- */
+    .navbar__main{
+        padding:0 1.2rem;
+    }
+    .navbar__menu{
+        margin:0;
+        padding: 0;
+        position: absolute;
+        background-color: white;
+        display: flex;
+        flex-flow:column wrap;
+        justify-content: space-evenly;
+        align-content: space-between;
+        z-index:20;
+        transform: translateX(-112%);
+        transition: all 1s;
+        height: 15rem;
+
+        li{
+            display: block;
+            padding: 0 2rem;
+        }
+
+        &--icon{
+            display: block;
+            padding:1rem 0 ;
+            cursor: pointer;
+        }
+
+        &--toggle{ 
+            transform: translateX(-12%);
+        }
+    }
+
+    .navbar__submenu{
+        transform: translate(70.3%, -20%);
+    }
+    
+
+    .slider__wrapper{
+        height: 25rem;
+    }
+    .product__list {
+        justify-content: center;
+      }
+
+    .carousel__parent{
+        height: 70%;
+    }
+    .content__def{
+        margin:1rem;
+    }
+    .def__text{
+        padding: 2rem;
+    }
+    
+    .content__benefits{
+        margin:1rem 3rem;
+    }
+
+    .show-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            padding-top: 1.5rem;
+            padding-bottom: 1rem;
+            font-size: 13px;
+            letter-spacing: .05em;
+            font-family: "Lato";
+        }
+    }
+
+    /* --FOOTER-- */
+    .footer__body {
+        padding: 2.7rem 0;
+      }
+    .footer__logo {
+        justify-content: center;
+        align-items: center;
+      }
+    .footer__box{
+        padding: .5rem;
+        margin: 0 1rem;
+        text-align: center;
+    }
+    .footer__box h3{
+        text-align: center;
+     }
+
+     .footer__list {
+        justify-content: center;
+        gap: .6rem;
+      }
+      .unit {
+        flex-flow: column wrap;
+        gap: .6rem;
+      }
+}
+
+
+
+@media screen and (max-width: 425px){
+    
+    .navbar__menu--icon{
+        display: block;
+        padding:1rem 0 ;
+        cursor: pointer;
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+
+    /* --FOOTER-- */
+    .footer__box{
+       text-align: center;
+    }
+}

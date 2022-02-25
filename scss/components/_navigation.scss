@@ -1,0 +1,15 @@
+/*--NAVIGATION--*/
+
+.navigation{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.navigation__item + .navigation__item{
+    padding-left: 1rem;
+}

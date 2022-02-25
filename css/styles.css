@@ -300,6 +300,7 @@ body{
 }
 
 /* ---TABS--- */
+
 .nav__tabs{
     list-style: none;
     display: flex;
@@ -1197,7 +1198,7 @@ h2{
 
 .slider__wrapper .carousel {
     height: inherit;
-  }
+}
 
 /*--- ANIMACIONES ---*/
 .fade--rigth{

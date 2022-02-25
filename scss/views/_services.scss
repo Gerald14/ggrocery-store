@@ -1,0 +1,127 @@
+/*--BENEFITS--*/
+
+.benefits{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
+    &__icon{
+        display: inline-flex;
+        align-items: center;
+        min-height: 8rem
+    }
+
+    &__item{
+        padding: 2rem;
+
+        h4{
+            font-size: 24px;
+            text-transform: uppercase;
+            font-weight: 500;
+            margin: 1rem 0;
+        }
+    }
+
+}
+
+.content__benefits{
+    margin:3rem;
+}
+
+
+
+.content__def{
+    margin:3rem;
+}
+
+/*--DEF--*/
+
+.def{
+    display: flex;
+    flex-wrap: wrap;
+
+    &__box{
+        flex: 0 60%;
+        padding: 1rem;
+    }
+
+    &__text{
+        flex:0 40%;
+        padding: 1rem;
+    }
+
+    &__img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        img{
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+        }
+    }
+
+    &__inf h3{
+        font-size: 40px;
+        position: relative;
+        padding-bottom: .6rem;
+        margin-top: 0;
+    }
+
+    &__inf h3::before{
+        position: absolute;
+        content: '';
+        background-color: #bac34e;
+        width: 100px;
+        height: 3px;
+        bottom: 0;
+    }
+
+    &__inf p{
+        line-height: 1.5;
+        color: #777777;
+    }
+}
+
+/*--CONTENT-TEAM--*/
+
+.content__team{
+    background-image: url("../assets/img/bg-team.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #f5f5f5;
+    background-position: center center;
+
+    .container{
+        height: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        padding-top: 2rem;
+        /* margin-top: 0; */
+      }
+}
+
+/*--CHILD--*/
+
+.child{
+    position: relative;
+    width: 30%;
+    height: 100%;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.child + .child{
+    padding-left: .1rem;
+}
+
+.col-3>a>img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,26 @@
+/*--ICON--*/
+
+.icon{
+
+    &__txt{
+        font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+        font-size: 60px;
+        font-weight: 600;
+        color: rgba(14, 13, 13, 0.116);
+    } 
+
+    &__img{
+        position: relative;
+        width: 6rem;
+        height: 6rem;
+
+        img{
+            width: inherit;
+            height: inherit;
+        }
+    }
+}
+
+.icon__txt + .icon__img{
+    margin-left: 20px;
+}
