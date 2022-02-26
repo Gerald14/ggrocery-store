@@ -84,5 +84,36 @@
 
     &__button:hover {
         background-color: #64925e;
-      }
+    }
+
+    &__box{
+        flex:0 60%;
+        padding: 1rem;
+    }
+
+    &__team{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        justify-content: space-between;
+        flex-direction: row;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+.logo{
+    
+    &__txt{
+        display: flex;
+        flex-direction: column;
+        
+        span{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        span:first-child{
+            color: #7fd02c;
+        }
+    }
 }

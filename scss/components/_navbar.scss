@@ -15,6 +15,7 @@
 
         ul {
             list-style: none;
+            padding-top: 0;
         }
 
         li{
@@ -48,14 +49,21 @@
         align-items: center;
         justify-content: center;
 
+        figure{
+            margin: 0;
+        }
+
         img{
             font-size: 4rem;
         }
     }
 
-    &__menu li:hover &__submenu{
-        display: block;
-    
+    &__menu {
+        margin: 0 .5rem;
+
+        li:hover .navbar__submenu{
+            display: block;
+        }
     }
 
     &__menu--icon{
@@ -77,6 +85,6 @@
     }
 
     &__secondary{
-        padding-top: 1rem;
+        margin: .5rem 0;
     }
 }
