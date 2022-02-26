@@ -58,3 +58,9 @@
     z-index: 1;
 }
 
+.row_ {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+  }
