@@ -61,10 +61,15 @@
     &__menu {
         margin: 0 .5rem;
 
+        li a:checked {
+            color:blue;
+        }
+
         li:hover .navbar__submenu{
             display: block;
         }
     }
+    
 
     &__menu--icon{
         display: none;

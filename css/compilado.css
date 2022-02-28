@@ -292,6 +292,8 @@ body {
 
 .navbar__menu {
   margin: 0 .5rem; }
+  .navbar__menu li a:checked {
+    color: blue; }
   .navbar__menu li:hover .navbar__submenu {
     display: block; }
 
@@ -418,6 +420,9 @@ body {
 #carouselExampleSlidesOnly {
   height: 100%; }
 
+.carousel-control-next, .carousel-control-prev {
+  width: 8% !important; }
+
 .carousel-caption h1 {
   color: #fff;
   text-shadow: 3px 9px 16px rgba(0, 0, 0, 0.18);
@@ -487,7 +492,7 @@ body {
   margin: 1rem; }
   .offer__wrapp {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, minmax(16rem, 1fr));
     grid-gap: 2rem;
     justify-content: space-evenly; }
   .offer__figure {
