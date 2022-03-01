@@ -233,6 +233,9 @@ body {
   outline: none;
   box-shadow: none; }
 
+.title-big {
+  font: normal 55px "Poppins", sans-serif; }
+
 /*--ICON--*/
 .icon__txt {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -945,6 +948,12 @@ body {
 
 footer {
   border-top: 1px solid #e1e1e1; }
+
+.unit {
+  display: flex;
+  margin-top: .8rem; }
+  .unit-left + .unit-rigth {
+    padding-left: 1rem; }
 
 /*--- MEDIA QUERYS ---*/
 @media screen and (min-width: 1200px) {
