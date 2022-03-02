@@ -236,6 +236,14 @@ body {
 .title-big {
   font: normal 55px "Poppins", sans-serif; }
 
+.subtitle {
+  font: normal 24px "Kalam", cursive;
+  letter-spacing: .05em;
+  text-transform: none;
+  font-weight: 600;
+  color: #7fd02c;
+  margin-bottom: 0; }
+
 /*--ICON--*/
 .icon__txt {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -591,8 +599,8 @@ body {
 
 .content__about {
   display: grid;
-  margin: 2rem;
-  padding: 0; }
+  margin: 0 2rem;
+  padding: 4rem 0; }
   .content__about h2 {
     text-align: center; }
 

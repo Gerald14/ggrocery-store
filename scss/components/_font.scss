@@ -1,3 +1,12 @@
 .title-big{
     font:$title-font;
 }
+
+.subtitle{
+    font:$subtitle-font;
+    letter-spacing: .05em;
+    text-transform: none;
+    font-weight: 600;
+    color:$color-green;
+    margin-bottom: 0;
+}
