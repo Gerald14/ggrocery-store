@@ -1,16 +1,18 @@
 /*--- ANIMACIONES ---*/
 
-.fade--rigth{
+.fade{
     visibility: visible;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-delay: 1s;
+}
+
+.fade--rigth{
+    @extend fade;
     animation-name: fadeInRigth;
 }
 
 .fade--left{
-    visibility: visible;
-    animation-duration: 3s;
-    animation-delay: 1s;
+    @extend fade;
     animation-name: fadeInLeft;
 }
 
