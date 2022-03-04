@@ -234,7 +234,13 @@ body {
   box-shadow: none; }
 
 .title-big {
-  font: normal 55px "Poppins", sans-serif; }
+  font: normal 55px "Poppins"; }
+
+.title-regular {
+  font: normal 45px "Poppins"; }
+
+.title-small {
+  font: normal 35px "Poppins"; }
 
 .subtitle {
   font: normal 24px "Kalam", cursive;
@@ -499,8 +505,8 @@ body {
   align-items: center;
   position: relative;
   background-color: #f2f2f2;
-  border: 1px solid #e1e1e1;
-  margin: 1rem; }
+  margin: 1rem;
+  border-radius: .5rem; }
   .offer__wrapp {
     display: grid;
     grid-template-columns: repeat(3, minmax(16rem, 1fr));

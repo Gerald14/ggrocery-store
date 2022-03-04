@@ -1,7 +1,15 @@
-.title-big{
-    font:$title-font;
-}
+$titles: ( 
+    big: normal 55px 'Poppins',
+    regular:  normal 45px 'Poppins',
+    small: normal 35px 'Poppins'
+); 
 
+@each $title, $font in $titles {
+    .title-#{$title} {
+        font: $font;
+    }
+ }
+ 
 .subtitle{
     font:$subtitle-font;
     letter-spacing: .05em;

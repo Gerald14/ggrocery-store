@@ -31,8 +31,8 @@
     align-items: center;
     position: relative;
     background-color: #f2f2f2;
-    border: 1px solid #e1e1e1;
     margin: 1rem;
+    border-radius: .5rem;
 
     &__wrapp{
         display: grid;
@@ -111,7 +111,7 @@
         }
 
         span:first-child{
-            color: #7fd02c;
+            color: $color-green;
         }
     }
 }

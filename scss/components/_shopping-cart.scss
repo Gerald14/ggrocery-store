@@ -5,7 +5,7 @@
 }
 
 .shop__button{
-    background-color: #76aa6f;
+    background-color: $color-btn-green;
     display: block;
     color: white;
     padding: .8rem 1rem;
@@ -45,6 +45,7 @@
 .product-img{
     width: 10rem;
 }
+
 .product-img a, .product-img img{
     width: inherit;
 }
