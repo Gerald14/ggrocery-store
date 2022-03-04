@@ -7,12 +7,12 @@
 }
 
 .fade--rigth{
-    @extend fade;
+    @extend .fade;
     animation-name: fadeInRigth;
 }
 
 .fade--left{
-    @extend fade;
+    @extend .fade;
     animation-name: fadeInLeft;
 }
 
