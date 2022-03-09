@@ -9,6 +9,7 @@
     <title>Acerca de nosotros</title>
     <link rel="stylesheet" href="../css/compilado.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -87,7 +88,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="about__def">
+                    <div class="about__def" 
+                    data-aos="fade-left" 
+                    data-aos-duration="800">
                         <div class="information">
                             <h4 class="subtitle">Algunas palabras sobre nuestra tienda</h4>
                             <h2  class="title-big">Mi tienda</h2>
@@ -140,17 +143,21 @@
             <div class="container">
                 <h2 class="title-big">Equipo</h2>
                 <div class="carousel__team">
-                    <div class="team">
+                    <div class="team" data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-duration="800">
 							<div class="team__header">
 								<div class="team__figure">
-									<img src="../assets/img/person-team.png" alt="">
+									<img src="../assets/img/Team-1.jpg" alt="">
 								</div>
 							</div>
                         <h4>Leonardo</h4>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     </div>
                        
-                    <div class="team">
+                    <div class="team" data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-duration="800">
 							<div class="team__header">
 								<div class="team__figure">
 									<img src="../assets/img/person-team.png" alt="">
@@ -161,7 +168,9 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                     </div>
                         
-                    <div class="team">
+                    <div class="team" data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-duration="800">
 							<div class="team__header">
 								<div class="team__figure">
 									<img src="../assets/img/person-team.png" alt="">
@@ -172,7 +181,9 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                      </div>
 
-                     <div class="team">
+                     <div class="team" data-aos="fade-up"
+                     data-aos-offset="300"
+                     data-aos-duration="800">
 								<div class="team__header">
 									<div class="team__figure">
 										<img src="../assets/img/person-team.png" alt="">
@@ -389,8 +400,9 @@
 			</div>
 	  </div>
     </footer>
-    <script src="../js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>

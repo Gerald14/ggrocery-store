@@ -103,7 +103,8 @@ $estilos: (
             position: absolute;
             top:0;
             object-fit: cover;
-            height: inherit;
+            height: 100%;
+            width: 100%;
         }
     }
 }

@@ -631,7 +631,8 @@ body {
       position: absolute;
       top: 0;
       object-fit: cover;
-      height: inherit; }
+      height: 100%;
+      width: 100%; }
 
 .team > p, .team > h4 {
   text-align: center; }
@@ -1019,7 +1020,7 @@ footer {
   .content__contact h3 {
     font-size: 26px; }
   .def__inf {
-    font-size: 26px; }
+    font-size: 1.1rem; }
     .def__inf h3 {
       font-size: 26px; }
     .def__inf p {

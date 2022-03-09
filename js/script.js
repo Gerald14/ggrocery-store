@@ -20,3 +20,7 @@ let menu_icon = document.querySelector("#menu-icon");
        form.classList.add('was-validated')
      }, false)
    })
+
+AOS.init({
+  once: true,
+});
