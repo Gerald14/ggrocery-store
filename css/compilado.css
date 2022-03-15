@@ -505,10 +505,11 @@ body {
   position: relative;
   background-color: #f2f2f2;
   margin: 1rem;
-  border-radius: .5rem; }
+  border-radius: .5rem;
+  transition: 450ms all; }
   .offer__wrapp {
     display: grid;
-    grid-template-columns: repeat(3, minmax(16rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     grid-gap: 2rem;
     justify-content: space-evenly; }
   .offer__figure {
@@ -538,7 +539,10 @@ body {
       border-radius: 50%;
       cursor: pointer;
       width: 2.3rem;
-      height: 2.3rem; }
+      height: 2.3rem;
+      opacity: 0;
+      transform: scale(0);
+      transition: 450ms all; }
       .offer__details button img {
         width: 100%;
         padding: 5px; }
@@ -546,6 +550,19 @@ body {
     font-size: 15px;
     color: #7fd02c;
     font-weight: 600; }
+
+.offer:hover {
+  background: #ffffff;
+  box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.09);
+  transform: scale(1.2);
+  z-index: 2; }
+
+.offer:hover .offer__details {
+  height: auto; }
+
+.offer:hover .offer__details button {
+  opacity: 1;
+  transform: scale(1.2); }
 
 .details {
   padding-bottom: 1rem; }
