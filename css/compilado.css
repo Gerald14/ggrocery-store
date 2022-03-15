@@ -426,6 +426,9 @@ body {
     content: 'next';
     color: white; }
 
+.nav-link:focus, .nav-link:hover {
+  color: #7fd02c !important; }
+
 .carousel-caption.d-md-block {
   top: 18%;
   bottom: 18%;
@@ -554,11 +557,8 @@ body {
 .offer:hover {
   background: #ffffff;
   box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.09);
-  transform: scale(1.2);
+  transform: scale(1.1);
   z-index: 2; }
-
-.offer:hover .offer__details {
-  height: auto; }
 
 .offer:hover .offer__details button {
   opacity: 1;
@@ -615,6 +615,8 @@ body {
     letter-spacing: 0.1em;
     margin-top: 1rem;
     text-transform: uppercase; }
+  .about__button:hover {
+    background-color: #64925e; }
   .about--izq {
     flex: 0 60%;
     padding: 0 1rem; }
@@ -821,13 +823,6 @@ body {
     position: relative;
     padding-bottom: .6rem;
     margin-top: 0; }
-  .def__inf h3::before {
-    position: absolute;
-    content: '';
-    background-color: #bac34e;
-    width: 100px;
-    height: 3px;
-    bottom: 0; }
   .def__inf p {
     line-height: 1.5;
     color: #777777; }
@@ -884,9 +879,14 @@ body {
       object-fit: contain;
       padding: 2rem; }
   .product__title {
-    padding-top: 2rem; }
+    padding-top: 2rem;
+    color: #151515 !important;
+    font-weight: 550;
+    text-transform: uppercase; }
   .product__price {
-    padding-bottom: 2rem; }
+    padding-bottom: 2rem;
+    color: #7fd02c !important;
+    font-weight: 600; }
   .product__nav {
     padding-top: 2rem; }
 

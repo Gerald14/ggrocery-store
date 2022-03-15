@@ -68,15 +68,6 @@
         margin-top: 0;
     }
 
-    &__inf h3::before{
-        position: absolute;
-        content: '';
-        background-color: #bac34e;
-        width: 100px;
-        height: 3px;
-        bottom: 0;
-    }
-
     &__inf p{
         line-height: 1.5;
         color: #777777;

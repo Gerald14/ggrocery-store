@@ -22,5 +22,9 @@ let menu_icon = document.querySelector("#menu-icon");
    })
 
 AOS.init({
+  initClassName: 'aos-init',
+  animatedClassName: 'aos-animate',
   once: true,
+  disabledMutationObserver : true ,
+  mirror: true,
 });
