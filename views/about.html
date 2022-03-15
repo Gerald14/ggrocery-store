@@ -7,6 +7,7 @@
     <meta name="description"  content="GROCERY STORE. Con tantos productos a elegir y comprar como abarrotes, verduras,frutas de calidad a un gran precio ,además cuentas con la posibilidad de poder realizar tus pagos a través de nuestro servicio por préstamos con previa aprobación">
     <meta name="keywords"  content="TIENDA, GROCERY, STORE, SUPERMARKET, ABARROTES">
     <title>Acerca de nosotros</title>
+    <link rel="icon" href="../assets/img/grocery-store-logo-icon.png" type="image/x-icon" sizes="16x16">
     <link rel="stylesheet" href="../css/compilado.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -15,28 +16,35 @@
     <header>
         <div class="navbar__wrapp">
             <!-- Logo de la pagina web -->
-				<div class="navbar__logo">
-					<figure class="main__logo">
-						 <img src="../assets/img/grocery-store-logo.jpg" alt="Logo" width="150" height="150">
-					</figure>
-					<div class="logo__txt">
-						<span>Grocery</span>
-						<span>Store</span>
-					</div>
-			  </div>
+            <div class="navbar__logo">
+                <figure class="main__logo">
+                    <img src="../assets/img/grocery-store-logo.jpg" alt="Logo" width="150" height="150">
+                </figure>
+                <div class="logo__txt">
+                    <span>Grocery</span>
+                    <span>Store</span>
+                </div>
+            </div>
              <!-- Barra de navegacion principal -->
-             <div class="navbar__main">
-                <nav>
-                    <div class="navbar__main--left"> 
+            <div class="navbar__main">
+                <nav> 
+                    <div class="navbar__main--left">
                         <div class="navbar__menu--icon" id="menu-icon">
                             <img src="https://img.icons8.com/material-outlined/24/000000/menu--v3.png"/>
                         </div>
                         <ul class="navbar__menu" id="menu">
                             <li><a href="../index.html">Inicio</a></li>
-                            <li><a href="./products.html">Productos</a></li>
+                            <li><a href="./products.html">Productos</a>
+                                <ul class="navbar__submenu">
+                                    <li><a href="">Lacteos</a></li>
+                                    <li><a href="">Verduras</a></li>
+                                    <li><a href="">Frutas</a></li>
+                                    <li><a href="">Carnes</a></li>
+                                </ul>
+                            </li>
                             <li><a href="./services.html">Servicios</a></li>
                             <li><a href="./contact.html">Contacto</a></li>
-                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./about.html">Nosotros</a></li>
                         </ul>
                     </div>
                     <div class="navbar__main--rigth">
@@ -49,8 +57,8 @@
                             <li><img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-user-interface-kiranshastry-lineal-kiranshastry.png"/></li>
                         </ul>
                     </div>
-                </nav>
-            </div>  
+                 </nav>
+            </div>
         </div>
     </header>
     <main>
@@ -90,7 +98,7 @@
                     </div>
                     <div class="about__def" 
                     data-aos="fade-left" 
-                    data-aos-duration="800">
+                    data-aos-duration="1200">
                         <div class="information">
                             <h4 class="subtitle">Algunas palabras sobre nuestra tienda</h4>
                             <h2  class="title-big">Mi tienda</h2>
@@ -98,20 +106,20 @@
                             <div class="tabs-info">
                                 <div class="tabs-info__nav">
                                     <ul class="nav nav__tabs">
-                                        <li class="nav-item" role="presentation"><a class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#tab-1" type="button" role="tab" aria-controls="tab-1" aria-selected="true">About</a></li>
-                                        <li class="nav-item" role="presentation"><a class="nav-link" id="2-tab" data-bs-toggle="tab" data-bs-target="#tab-2" type="button" role="tab" aria-controls="tab-2" aria-selected="false">Our mission</a></li>
-                                        <li class="nav-item" role="presentation"><a class="nav-link" id="3-tab" data-bs-toggle="tab" data-bs-target="#tab-3" type="button" role="tab" aria-controls="tab-3" aria-selected="false">Our vision</a></li>
+                                        <li class="nav-item" role="presentation"><a class="nav-link active" id="1-tab" data-bs-toggle="tab" data-bs-target="#tab-1" type="button" role="tab" aria-controls="tab-1" aria-selected="true">Nosotros</a></li>
+                                        <li class="nav-item" role="presentation"><a class="nav-link" id="2-tab" data-bs-toggle="tab" data-bs-target="#tab-2" type="button" role="tab" aria-controls="tab-2" aria-selected="false">Nuestra mision</a></li>
+                                        <li class="nav-item" role="presentation"><a class="nav-link" id="3-tab" data-bs-toggle="tab" data-bs-target="#tab-3" type="button" role="tab" aria-controls="tab-3" aria-selected="false">Nuestra vision</a></li>
                                       </ul>
                                 </div>
                                 <div class="tab-content">
                                     <div class="tab-pane active" id="tab-1" role="tabpanel" aria-labelledby="1-tab">
-                                        <p>Chicken Good is a 100% American, family-owned and operated company, providing fresh shell eggs and egg products to supermarkets, restaurants and food manufacturers.</p>
+                                        <p>Somos una empresa dedicada a la comercialización y distribución de productos de necesidad básica mediante la herramienta web, fomentando el desarrollo del comercio electrónico en Perú para satisfacer las necesidades de nuestros clientes</p>
                                     </div>
                                     <div class="tab-pane" id="tab-2" role="tabpanel" aria-labelledby="2-tab">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolor magni accusantium cupiditate autem eos reprehenderit.</p>
+                                        <p>Nuestra misión es poner al alcance de nuestros clientes los mejores productos para sus necesidades diarias, su bienestar y su salud. Nos diferencia la calidad de nuestros artículos frescos.</p>
                                     </div>
                                     <div class="tab-pane" id="tab-3" role="tabpanel" aria-labelledby="3-tab">
-                                        <p>Chicken Good is a 100% American, family-owned and operated company, providing fresh shell eggs and egg products to supermarkets, restaurants and food manufacturers.</p>
+                                        <p>Liderar el mercado local y convertirse  en el Supermercado Virtual más importante de Perú ofreciendo al consumidor una amplia gama de ofertas de productos y servicios de calidad de las empresas más serias y responsables del país.</p>
                                     </div>
                                 </div>
                             </div>
@@ -125,73 +133,96 @@
                 <h2 class="title-big">Historia</h2>
                 <div class="list__history">
                     <div class="list__item fade--left">
-                        <h3>Establecimiento</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, recusandae numquam possimus nulla dolor neque.</p>
+                        <h3>Inicios</h3>
+                        <p>Grocery Store, la primera cadena de supermercados del mundo, nadie supo el porque eligió este nombre tan sui géneris para su cadena de tiendas, pero hay quienes cuentan, que se le ocurrió cuando vio a unos cerditos intentar pasar por debajo de una valla.</p>
                     </div>
                     <div class="list__item fade--left">
-                        <h3>Primer Partnero</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, recusandae numquam possimus nulla dolor neque.</p>
+                        <h3>Acontecimientos</h3>
+                        <p>Para 1982, ya contaba con 13 locales en Lima y su éxito era el mejor hasta que la familia Mujluf decidió vender el supermercado a la familia Brescia y estas personas atravesaron un momento de crisis económica durante los años 80’s. Para inicios de 1990, Scala solo contaba con 7 de los 13 locales que tenía.</p>
                     </div>
                     <div class="list__item fade--left">
-                        <h3>Sitio Web</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, recusandae numquam possimus nulla dolor neque.</p>
+                        <h3>Actualidad</h3>
+                        <p>Hoy en día, existen al sur de los Perú, más de 600 (seiscientas) tiendas repartidas sobre el país.  Es gracias a esto, que el señor Leonardo Medina, revoluciono la vida en el mundo, haciendo de las compras una tarea más fácil.</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="content__team">
             <div class="container">
-                <h2 class="title-big" data-aos="zoom-in"data-aos-duration="800">Equipo</h2>
+                <h2 class="title-big" data-aos="zoom-in"data-aos-duration="1200">Equipo</h2>
                 <div class="carousel__team">
                     <div class="team" data-aos="fade-up"
-                    data-aos-offset="300"
-                    data-aos-duration="800">
+                    data-aos-duration="1200">
 							<div class="team__header">
 								<div class="team__figure">
 									<img src="../assets/img/Team-1.jpg" alt="">
 								</div>
 							</div>
-                        <h4>Leonardo</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <h4>Leonardo Medina</h4>
+                        <p>Gerente</p>
+                        <div class="team__redes">
+                            <img src="https://img.icons8.com/ios-glyphs/20/000000/facebook-f.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/22/000000/twitter--v1.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/22/000000/instagram-new.png"/>
+                            <img src="https://img.icons8.com/ios/30/000000/google-plus.png"/>
+                        </div>
                     </div>
                        
                     <div class="team" data-aos="fade-up"
                     data-aos-offset="300"
-                    data-aos-duration="800">
+                    data-aos-duration="1200">
 							<div class="team__header">
 								<div class="team__figure">
-									<img src="../assets/img/person-team.png" alt="">
+									<img src="../assets/img/team-6-270x227.jpg" alt="">
 								</div>
 							</div>
                         
-                        <h4>Leonardo</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <h4>Elizabeth Ramirez</h4>
+                        <p>Sub gerente</p>
+                        <div class="team__redes">
+                            <img src="https://img.icons8.com/ios-glyphs/20/000000/facebook-f.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/22/000000/twitter--v1.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/22/000000/instagram-new.png"/>
+                            <img src="https://img.icons8.com/ios/30/000000/google-plus.png"/>
+                        </div>
                     </div>
                         
                     <div class="team" data-aos="fade-up"
                     data-aos-offset="300"
-                    data-aos-duration="800">
+                    data-aos-duration="1200">
 							<div class="team__header">
 								<div class="team__figure">
-									<img src="../assets/img/person-team.png" alt="">
+									<img src="../assets/img/team-4-270x227.jpg" alt="">
 								</div>
 							</div>
                         
-                        <h4>Leonardo</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <h4>Kathlen Apaza</h4>
+                        <p>Marketing</p>
+                        <div class="team__redes">
+                            <img src="https://img.icons8.com/ios-glyphs/20/000000/facebook-f.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/22/000000/twitter--v1.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/22/000000/instagram-new.png"/>
+                            <img src="https://img.icons8.com/ios/30/000000/google-plus.png"/>
+                        </div>
                      </div>
 
                      <div class="team" data-aos="fade-up"
                      data-aos-offset="300"
-                     data-aos-duration="800">
-								<div class="team__header">
-									<div class="team__figure">
-										<img src="../assets/img/person-team.png" alt="">
-									</div>
-								</div>
-									
-                        <h4>Leonardo</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                     data-aos-duration="1200">
+                            <div class="team__header">
+                                <div class="team__figure">
+                                    <img src="../assets/img/team-7-270x227.jpg" alt="">
+                                </div>
+                            </div>
+                                        
+                            <h4>Andres Morales</h4>
+                            <p>Administrador de ventas</p>
+                            <div class="team__redes">
+                                <img src="https://img.icons8.com/ios-glyphs/20/000000/facebook-f.png"/>
+                                <img src="https://img.icons8.com/ios-glyphs/22/000000/twitter--v1.png"/>
+                                <img src="https://img.icons8.com/ios-glyphs/22/000000/instagram-new.png"/>
+                                <img src="https://img.icons8.com/ios/30/000000/google-plus.png"/>
+                            </div>
                      </div>
                 </div>
             </div>
@@ -206,8 +237,8 @@
             <div class="offcanvas-body">
               <div class="shop__content">
                 <div class="shop__header">
-                    <div class="top-subtotal">2 items, 
-                        <span class="price">$259.99</span> 
+                    <div class="top-subtotal">5 productos, 
+                        <span class="price">S/.250.00</span> 
                     </div>
                 </div>
                 <div class="shop__body">
@@ -218,8 +249,8 @@
                         <div class="product-details">
                             
                             <!--access-->
-                            <strong>1</strong> x <span class="price">$179.99</span>
-                            <p class="product-name"><a href="#">Fresh Organic Mustard Leaves</a></p>
+                            <strong>1</strong> x <span class="price">S/.50.00</span>
+                            <p class="product-name"><a href="#">Fresco Organico Cebolla Blanca</a></p>
                         </div>
                         <div class="product-access">
                             <a class="btn-remove1" title="Eliminar este item" href="#">
@@ -237,8 +268,8 @@
                         <div class="product-details">
                             
                             <!--access-->
-                            <strong>1</strong> x <span class="price">$179.99</span>
-                            <p class="product-name"><a href="#">Fresh Organic Mustard Leaves</a></p>
+                            <strong>1</strong> x <span class="price">S/.50.00</span>
+                            <p class="product-name"><a href="#">Fresco Organico Cebolla Blanca</a></p>
                         </div>
                         <div class="product-access">
                             <a class="btn-remove1" title="Eliminar este item" href="#">
@@ -256,8 +287,8 @@
                         <div class="product-details">
                             
                             <!--access-->
-                            <strong>1</strong> x <span class="price">$179.99</span>
-                            <p class="product-name"><a href="#">Fresh Organic Mustard Leaves</a></p>
+                            <strong>1</strong> x <span class="price">S/.50.00</span>
+                            <p class="product-name"><a href="#">Fresco Organico Cebolla Blanca</a></p>
                         </div>
                         <div class="product-access">
                             <a class="btn-remove1" title="Eliminar este item" href="#">
@@ -275,8 +306,8 @@
                         <div class="product-details">
                             
                             <!--access-->
-                            <strong>1</strong> x <span class="price">$179.99</span>
-                            <p class="product-name"><a href="#">Fresh Organic Mustard Leaves</a></p>
+                            <strong>1</strong> x <span class="price">S/.50.00</span>
+                            <p class="product-name"><a href="#">Fresco Organico Cebolla Blanca</a></p>
                         </div>
                         <div class="product-access">
                             <a class="btn-remove1" title="Eliminar este item" href="#">
@@ -294,8 +325,8 @@
                         <div class="product-details">
                             
                             <!--access-->
-                            <strong>1</strong> x <span class="price">$179.99</span>
-                            <p class="product-name"><a href="#">Fresh Organic Mustard Leaves</a></p>
+                            <strong>1</strong> x <span class="price">S/.50.00</span>
+                            <p class="product-name"><a href="#">Fresco Organico Cebolla Blanca</a></p>
                         </div>
                         <div class="product-access">
                             <a class="btn-remove1" title="Eliminar este item" href="#">
@@ -318,62 +349,68 @@
         <div class="footer__body ">
             <div class="container">
                 <div class="footer">
-                    <div class="footer__box" data-aos="fade-left" data-aos-duration="800">
-							<div class="footer__logo">
-								<figure class="footer__img">
-									 <img src="../assets/img/grocery-store-logo.jpg" alt="Logo" width="120" height="120">
-								</figure>
-								<div class="footer__txt">
-									 <span>Grocery</span>
-									 <span>Store</span>
-								</div>
-						  </div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, dicta.</p>
+                    <div class="footer__box" data-aos="fade-left" data-aos-duration="1200">
+                        <div class="footer__logo">
+                            <figure class="footer__img">
+                                <img src="../assets/img/grocery-store-logo.jpg" alt="Logo" width="120" height="120">
+                            </figure>
+                            <div class="footer__txt">
+                                <span>Grocery</span>
+                                <span>Store</span>
+                            </div>
+                        </div>
+                        <p>Tienda de abarrotes, vegetales y mas!</p>
                         <ul>
                             <li>
-                                <span>Weekdays:</span><span>08:00am - 08:00pm</span>
+                                <span>L-V : </span><span>08:00am - 08:00pm</span>
                             </li>
                             <li>
-                                <span>Weekdays:</span><span>08:00am - 08:00pm</span>
+                                <span>S-D : </span><span>08:00am - 08:00pm</span>
+                            </li>
+                        </ul>
+                        <div class="unit__redes">
+                            <img src="https://img.icons8.com/ios-glyphs/15/000000/facebook-f.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/17/000000/twitter--v1.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/17/000000/instagram-new.png"/>
+                            <img src="https://img.icons8.com/ios/25/000000/google-plus.png"/>
+                        </div>
+                    </div>
+                    <div class="footer__box" data-aos="fade-left" data-aos-duration="1200">
+                        <h3>Contacto</h3>
+                        <ul>
+                            <li>
+                                <div class="unit">
+                                    <div class="unit-left">
+                                        <img src="https://img.icons8.com/material-sharp/20/76aa6f/marker.png"/>
+                                    </div>
+                                    <div class="unit-rigth">
+                                        Jr zorritos 564, Cercado de Lima
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="unit">
+                                    <div class="unit-left">
+                                        <img src="https://img.icons8.com/ios-glyphs/20/76aa6f/phone--v1.png"/>
+                                    </div>
+                                    <div class="unit-rigth">
+                                       436374823
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="unit">
+                                    <div class="unit-left">
+                                        <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/20/76aa6f/external-mail-twitter-flatart-icons-outline-flatarticons.png"/>
+                                    </div>
+                                    <div class="unit-rigth">
+                                        Grocery_store@gmail.com
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
-                    <div class="footer__box" data-aos="fade-left" data-aos-duration="800">
-							<h3>Contact</h3>
-							<ul>
-								 <li>
-									  <div class="unit">
-											<div class="unit-left">
-												 <img src="https://img.icons8.com/material-sharp/20/76aa6f/marker.png"/>
-											</div>
-											<div class="unit-rigth">
-												 Lorem ipsum dolor sit amet consectetur.
-											</div>
-									  </div>
-								 </li>
-								 <li>
-									  <div class="unit">
-											<div class="unit-left">
-												 <img src="https://img.icons8.com/ios-glyphs/20/76aa6f/phone--v1.png"/>
-											</div>
-											<div class="unit-rigth">
-												436374823
-											</div>
-									  </div>
-								 </li>
-								 <li>
-									  <div class="unit">
-                                            <div class="unit-left">
-                                                <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/20/76aa6f/external-mail-twitter-flatart-icons-outline-flatarticons.png"/>
-                                            </div>
-											<div class="unit-rigth">
-												 Loremipsum@sfka.com
-											</div>
-									  </div>
-								 </li>
-							</ul>
-					  	  </div>
-                    <div class="footer__box" data-aos="fade-left" data-aos-duration="800">
+                    <div class="footer__box" data-aos="fade-left" data-aos-duration="1200">
                         <h3>Information</h3>
                         <ul>
                             <li>FAQ</li>
@@ -386,19 +423,19 @@
             </div>
         </div>
         <div class="footer__panel">
-			<div class="container">
-				 <div class="footer__list">
-					  <div>
-                        <small> &copy; 2022 <b>Grocery Store</b> - Todos lo derechos reservados.</small>
-					  </div>
-					  <div>
-							<img src="https://img.icons8.com/ios-glyphs/30/777777/visa.png"/>
-							<img src="https://img.icons8.com/ios-filled/30/777777/mastercard.png"/>
-							<img src="https://img.icons8.com/ios/30/777777/diners-club.png"/>
-					  </div>
-				 </div>
-			</div>
-	  </div>
+            <div class="container">
+                <div class="footer__list">
+                    <div>
+                        © 2022 Mi Tienda.  All rights reserved.
+                    </div>
+                    <div>
+                        <img src="https://img.icons8.com/ios-glyphs/30/777777/visa.png"/>
+                        <img src="https://img.icons8.com/ios-filled/30/777777/mastercard.png"/>
+                        <img src="https://img.icons8.com/ios/30/777777/diners-club.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

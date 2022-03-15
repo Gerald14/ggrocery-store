@@ -82,6 +82,7 @@
     background-size: auto;
     background-color: #f5f5f5;
     background-position: center center;
+    padding-bottom: 3rem;
 
     .container{
         height: 100%;
@@ -92,6 +93,10 @@
         padding-top: 2rem;
         /* margin-top: 0; */
       }
+}
+
+.services__button:hover{
+    background-color: #64925e;
 }
 
 /*--CHILD--*/

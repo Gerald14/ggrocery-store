@@ -2,6 +2,10 @@
     color: $color-green!important;
 }
 
+.product-name a:hover{
+    color: $color-green;
+}
+
 .carousel-caption.d-md-block {
     top:18%;
     bottom:18%;
@@ -25,7 +29,7 @@
         color: #fff;
         text-shadow: 3px 9px 16px rgba(0, 0, 0, 0.18);
         font-size: 100px;
-        font-weight: 800;
+        font-weight: 1200;
         letter-spacing: .025em;
         font-family: "Poppins";
     }

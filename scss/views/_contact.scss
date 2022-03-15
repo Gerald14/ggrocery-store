@@ -75,7 +75,7 @@
 }
 
 .contact__wrapp{
-    padding: 5rem;
+    padding: 5rem 8rem;
 
     label{
         margin-bottom: .6rem;
@@ -96,4 +96,8 @@
         height: 3px;
         bottom: 0;
     }
+}
+
+.contact__button:hover{
+    background-color: #64925e;
 }

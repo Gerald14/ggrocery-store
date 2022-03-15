@@ -111,6 +111,13 @@ $estilos: (
             width: 100%;
         }
     }
+
+    &__redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
 }
 
 .team>p,.team>h4{
@@ -135,6 +142,7 @@ $estilos: (
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    padding: 2rem 0 3rem 0;
 
     h2 {
         text-align: center;

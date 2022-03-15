@@ -7,8 +7,10 @@
     <meta name="description"  content="GROCERY STORE. Con tantos productos a elegir y comprar como abarrotes, verduras,frutas de calidad a un gran precio ,además cuentas con la posibilidad de poder realizar tus pagos a través de nuestro servicio por préstamos con previa aprobación">
     <meta name="keywords"  content="TIENDA, GROCERY, STORE, SUPERMARKET, ABARROTES">
     <title>Sevicio de prestamo</title>
+    <link rel="icon" href="../assets/img/grocery-store-logo-icon.png" type="image/x-icon" sizes="16x16">
     <link rel="stylesheet" href="../css/compilado.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -25,17 +27,24 @@
             </div>
              <!-- Barra de navegacion principal -->
             <div class="navbar__main">
-                <nav>
-                    <div class="navbar__main--left"> 
+                <nav> 
+                    <div class="navbar__main--left">
                         <div class="navbar__menu--icon" id="menu-icon">
                             <img src="https://img.icons8.com/material-outlined/24/000000/menu--v3.png"/>
                         </div>
                         <ul class="navbar__menu" id="menu">
                             <li><a href="../index.html">Inicio</a></li>
-                            <li><a href="./products.html">Productos</a></li>
+                            <li><a href="./products.html">Productos</a>
+                                <ul class="navbar__submenu">
+                                    <li><a href="">Lacteos</a></li>
+                                    <li><a href="">Verduras</a></li>
+                                    <li><a href="">Frutas</a></li>
+                                    <li><a href="">Carnes</a></li>
+                                </ul>
+                            </li>
                             <li><a href="./services.html">Servicios</a></li>
                             <li><a href="./contact.html">Contacto</a></li>
-                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./about.html">Nosotros</a></li>
                         </ul>
                     </div>
                     <div class="navbar__main--rigth">
@@ -48,7 +57,7 @@
                             <li><img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-user-interface-kiranshastry-lineal-kiranshastry.png"/></li>
                         </ul>
                     </div>
-                </nav>
+                 </nav>
             </div>
         </div>
     </header>
@@ -69,11 +78,15 @@
                         </div>
                     </div>
                     <div class="def__text">
-                        <div class="def__inf">
+                        <div class="def__inf"
+                        data-aos="fade-left" 
+                        data-aos-duration="1200">
                             <h4 class="subtitle">Una gran servicio a su disposicion</h4>
                             <h2  class="title-big">Prestamo</h2>
                             <h3>Que ofrecemos?</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde omnis doloremque optio similique sequi ad facilis quod molestiae cumque hic, voluptatum maxime! Ipsam veritatis accusantium sit quisquam, minima doloremque tenetur ipsa, neque odit incidunt omnis libero, quaerat amet! Ad reprehenderit perferendis minima cupiditate rerum voluptatum ratione impedit pariatur aperiam debitis.</p>
+                            <p>Este servicio de prestamo va dirigido a las personas que no cuentan con el efectivo suficiente para realizar sus compras, este servicio tendra una evaluzacion el cual al ser aceptado estara suscrito a nuestro servicio.
+                                Podra visualizar que cuenta con el servicio en su cuenta.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -82,34 +95,34 @@
         <section class="content__benefits">
             <div class="container">
                 <div class="benefits">
-                    <div class="benefit__box">
+                    <div class="benefit__box" data-aos="fade-left" data-aos-duration="1200">
                         <div class="benefits__item">
                             <div class="benefits__icon">
                                 <div class="icon__txt">01</div>
-                                <div class="icon__img"><img src="../assets/img/Benefits-Icon.png" alt=""></div>
+                                <div class="icon__img"><img src="https://img.icons8.com/bubbles/100/000000/receive-cash.png"/></div>
                             </div>
-                            <h4>Beneficio 1</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ad repellendus rerum!</p>
+                            <h4>Efectivo</h4>
+                            <p>Si no cuentas con efectivo, te damos el efectivo que necesitas para pagar tus compras!</p>
                         </div>
                     </div>
-                    <div class="benefit__box">
+                    <div class="benefit__box" data-aos="fade-left" data-aos-duration="1200">
                         <div class="benefits__item">
                             <div class="benefits__icon">
                                 <div class="icon__txt">02</div>
-                                <div class="icon__img"><img src="../assets/img/Benefits-Icon.png" alt=""></div>
+                                <div class="icon__img"><img src="https://img.icons8.com/bubbles/100/000000/positive-dynamic.png"/></div>
                             </div>
-                            <h4>Beneficio 1</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ad repellendus rerum!</p>
+                            <h4>Pago a cuotas</h4>
+                            <p>Podras realizar el pago de tu deuda por cuotas con una tasa de interes muy baja!</p>
                         </div>
                     </div>
-                    <div class="benefit__box">
+                    <div class="benefit__box" data-aos="fade-left" data-aos-duration="1200">
                         <div class="benefits__item">
                             <div class="benefits__icon">
                                 <div class="icon__txt">03</div>
-                                <div class="icon__img"><img src="../assets/img/Benefits-Icon.png" alt=""></div>
+                                <div class="icon__img"><img src="https://img.icons8.com/bubbles/100/000000/money-bag.png"/></div>
                             </div>
-                            <h4>Beneficio 1</h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ad repellendus rerum!</p>
+                            <h4>Monto</h4>
+                            <p>Una vez que cuentes con capital, podras realizar tu pago previa coordinacion!</p>
                         </div>
                     </div>
                 </div>
@@ -154,7 +167,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="form__button">
-                                    <input type="submit" value="Suscribirse">
+                                    <input class="services__button" type="submit" value="Suscribirse">
                                 </div>
                             </div>
                         </form>
@@ -178,8 +191,8 @@
             <div class="offcanvas-body">
               <div class="shop__content">
                 <div class="shop__header">
-                    <div class="top-subtotal">2 items, 
-                        <span class="price">$259.99</span> 
+                    <div class="top-subtotal">5 productos, 
+                        <span class="price">S/.250.00</span> 
                     </div>
                 </div>
                 <div class="shop__body">
@@ -190,8 +203,8 @@
                         <div class="product-details">
                             
                             <!--access-->
-                            <strong>1</strong> x <span class="price">$179.99</span>
-                            <p class="product-name"><a href="#">Fresh Organic Mustard Leaves</a></p>
+                            <strong>1</strong> x <span class="price">S/.50.00</span>
+                            <p class="product-name"><a href="#">Fresco Organico Cebolla Blanca</a></p>
                         </div>
                         <div class="product-access">
                             <a class="btn-remove1" title="Eliminar este item" href="#">
@@ -209,8 +222,8 @@
                         <div class="product-details">
                             
                             <!--access-->
-                            <strong>1</strong> x <span class="price">$179.99</span>
-                            <p class="product-name"><a href="#">Fresh Organic Mustard Leaves</a></p>
+                            <strong>1</strong> x <span class="price">S/.50.00</span>
+                            <p class="product-name"><a href="#">Fresco Organico Cebolla Blanca</a></p>
                         </div>
                         <div class="product-access">
                             <a class="btn-remove1" title="Eliminar este item" href="#">
@@ -228,8 +241,8 @@
                         <div class="product-details">
                             
                             <!--access-->
-                            <strong>1</strong> x <span class="price">$179.99</span>
-                            <p class="product-name"><a href="#">Fresh Organic Mustard Leaves</a></p>
+                            <strong>1</strong> x <span class="price">S/.50.00</span>
+                            <p class="product-name"><a href="#">Fresco Organico Cebolla Blanca</a></p>
                         </div>
                         <div class="product-access">
                             <a class="btn-remove1" title="Eliminar este item" href="#">
@@ -247,8 +260,8 @@
                         <div class="product-details">
                             
                             <!--access-->
-                            <strong>1</strong> x <span class="price">$179.99</span>
-                            <p class="product-name"><a href="#">Fresh Organic Mustard Leaves</a></p>
+                            <strong>1</strong> x <span class="price">S/.50.00</span>
+                            <p class="product-name"><a href="#">Fresco Organico Cebolla Blanca</a></p>
                         </div>
                         <div class="product-access">
                             <a class="btn-remove1" title="Eliminar este item" href="#">
@@ -266,8 +279,8 @@
                         <div class="product-details">
                             
                             <!--access-->
-                            <strong>1</strong> x <span class="price">$179.99</span>
-                            <p class="product-name"><a href="#">Fresh Organic Mustard Leaves</a></p>
+                            <strong>1</strong> x <span class="price">S/.50.00</span>
+                            <p class="product-name"><a href="#">Fresco Organico Cebolla Blanca</a></p>
                         </div>
                         <div class="product-access">
                             <a class="btn-remove1" title="Eliminar este item" href="#">
@@ -290,7 +303,7 @@
         <div class="footer__body ">
             <div class="container">
                 <div class="footer">
-                    <div class="footer__box">
+                    <div class="footer__box" data-aos="fade-left" data-aos-duration="1200">
                         <div class="footer__logo">
                             <figure class="footer__img">
                                 <img src="../assets/img/grocery-store-logo.jpg" alt="Logo" width="120" height="120">
@@ -300,18 +313,24 @@
                                 <span>Store</span>
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, dicta.</p>
+                        <p>Tienda de abarrotes, vegetales y mas!</p>
                         <ul>
                             <li>
-                                <span>Weekdays:</span><span>08:00am - 08:00pm</span>
+                                <span>L-V : </span><span>08:00am - 08:00pm</span>
                             </li>
                             <li>
-                                <span>Weekdays:</span><span>08:00am - 08:00pm</span>
+                                <span>S-D : </span><span>08:00am - 08:00pm</span>
                             </li>
                         </ul>
+                        <div class="unit__redes">
+                            <img src="https://img.icons8.com/ios-glyphs/15/000000/facebook-f.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/17/000000/twitter--v1.png"/>
+                            <img src="https://img.icons8.com/ios-glyphs/17/000000/instagram-new.png"/>
+                            <img src="https://img.icons8.com/ios/25/000000/google-plus.png"/>
+                        </div>
                     </div>
-                    <div class="footer__box">
-                        <h3>Contact</h3>
+                    <div class="footer__box" data-aos="fade-left" data-aos-duration="1200">
+                        <h3>Contacto</h3>
                         <ul>
                             <li>
                                 <div class="unit">
@@ -319,7 +338,7 @@
                                         <img src="https://img.icons8.com/material-sharp/20/76aa6f/marker.png"/>
                                     </div>
                                     <div class="unit-rigth">
-                                        Lorem ipsum dolor sit amet consectetur.
+                                        Jr zorritos 564, Cercado de Lima
                                     </div>
                                 </div>
                             </li>
@@ -339,13 +358,13 @@
                                         <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/20/76aa6f/external-mail-twitter-flatart-icons-outline-flatarticons.png"/>
                                     </div>
                                     <div class="unit-rigth">
-                                        Loremipsum@sfka.com
+                                        Grocery_store@gmail.com
                                     </div>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                    <div class="footer__box">
+                    <div class="footer__box" data-aos="fade-left" data-aos-duration="1200">
                         <h3>Information</h3>
                         <ul>
                             <li>FAQ</li>
@@ -372,7 +391,8 @@
             </div>
         </div>
     </footer>
-    <script src="../js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>

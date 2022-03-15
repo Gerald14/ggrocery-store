@@ -78,10 +78,10 @@
     &__submenu {
         position: absolute;
         display: none;
-        padding: 1.5rem;
+        padding: 1.5rem !important;
         /* width: 120%; */
         background-color: #fafafa;
-        z-index: 15;
+        z-index: 20;
 
         li a{
             display: block;

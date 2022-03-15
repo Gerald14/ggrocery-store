@@ -79,5 +79,13 @@ footer{
     &-left + &-rigth{
         padding-left: 1rem;
     }
+    &__redes{
+        display: flex;
+        align-items: center;
+        gap:1rem;
+    }
+    &__redes img{
+        cursor: pointer;
+    }
     
 }
